@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedraft</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet"
+        href="bootstrap.min.css">
+</head>
+<body data-bs-theme="light">
+    <h1 class ="bg-primary text-center">Welcome to Pokedraft</h1>
+    <p class ="text-center">Select Pokemon from the list below if you want to ban them, set your ideal draft pool size, then click "Generate" to randomly split the Pokemon! <br>
+    <input id="pool-size" type="number">
+    <button id="generate">Generate!</button>
+    </p>
+    <hr>
+    <section id="teams">
+        <div id="teamone" class="hidden"></div>
+        <div id="teamtwo" class="hidden"></div>
+        <p><button id ="copy-team" class="hidden">Copy teams</button></p>
+    </section>
+    <hr>
+    <section id = "pokes"></section>
+    <hr>
+    <section id = "banned">
+        <p>Banlist:</p>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>

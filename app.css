@@ -1,0 +1,82 @@
+.pokemon img {
+    height: 42px;
+}
+
+#teams {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#teamone, #teamtwo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: calc(50% - 1rem);
+    padding: 0.5rem;
+    text-align: center;
+    border: 4px solid black;
+}
+
+#teamone {
+    margin-right: 0.5rem;
+    background-color: aqua;
+}
+
+#teamtwo {
+    background-color: lightcoral;
+}
+
+#teamone p, #teamtwo p {
+    width: 100%;
+    margin-bottom: 0.25rem;
+}
+
+#teamone div, #teamtwo div {
+    width: 20%;
+    min-width: 100px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.hidden {
+    display: none !important;
+}
+
+#copy-team {
+    margin-top: 0.5rem;
+}
+
+#pokes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    font-size: .75rem;
+}
+
+#pokes .pokemon {
+    width: 100px;
+    text-align: center;
+}
+
+#pokes .pokemon img {
+    cursor: pointer;
+}
+
+#pokes .pokemon p {
+    text-transform: capitalize;
+    margin-bottom: 0.25rem;
+}
+
+#banned {
+    display: inline-block;
+}
+
+#banned img {
+    height: 42px;
+    background-color: red;
+    cursor: pointer;
+}
